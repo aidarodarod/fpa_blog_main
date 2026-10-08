@@ -1,0 +1,46 @@
+@font-face{font-family:Roboto;src:url('assets/fonts/Roboto.ttf') format('truetype');font-weight:100 900;font-style:normal;font-display:swap}
+.article-page .canvas-grid{margin-top:40px;margin-bottom:64px}
+.article-feed{min-width:0;gap:28px}
+.article-card,.article-comments{width:100%;height:auto!important}
+.article-comments [data-node-id='7417:1198'],.article-comments [data-node-id='7416:1002']{height:auto!important}
+.article-card a:focus-visible{outline:2px solid #295ad9;outline-offset:4px}
+.article-card [data-node-id='7416:960']:hover{color:#295ad9}
+.comment-input{background:transparent;border:0;resize:none;overflow:hidden;flex:1;min-width:0;height:26px;padding:0;outline-offset:3px}
+.comment-input::placeholder{color:#595959;opacity:1}
+.article-comments .comment-input:focus-visible{outline:none}
+.article-comments [data-node-id='7416:978']:focus-within{outline:2px solid #295ad9;outline-offset:2px}
+.article-comments button{padding:0;text-align:inherit}
+.article-comments [data-node-id='7416:1015'],.article-comments [data-node-id='7417:1199'],.article-comments [data-node-id='7417:1218']{display:flex;gap:2px;align-items:center;padding:0 4px}
+.article-comments .is-liked{background:#ebeff8!important;color:#295ad9}
+.article-card .is-subscribed{background:#ebeff8!important;color:#295ad9}
+.article-page .site-header [data-node-id='7323:2399']:focus-visible{outline:2px solid #295ad9;outline-offset:5px}
+@media(min-width:744px){.article-comments .comment-input{flex:0 0 auto!important}}
+@media(max-width:743px){
+  .article-page .canvas-grid{margin-top:24px;margin-bottom:48px}
+  .article-card{padding-bottom:24px!important}
+  .article-card>div{padding-left:24px!important;padding-right:24px!important;max-width:100%}
+  .article-card [data-node-id='7399:1671']{padding-top:24px!important;padding-bottom:24px!important;flex-wrap:wrap;gap:12px}
+  .article-card [data-node-id='7399:1672']{max-width:100%;width:100%!important;flex-basis:100%;min-width:0}
+  .article-card [data-node-id='7407:810']{width:100%!important;min-width:0}
+  .article-card [data-node-id='7399:1682']{display:none}
+  .article-card [data-node-id='7399:1683']{margin-left:auto}
+  .article-card [data-node-id='7399:1689']{height:auto!important;padding-bottom:20px!important}
+  .article-card [data-node-id='7399:1690']{height:auto!important;aspect-ratio:632/394.921875}
+  .article-card [data-node-id='7414:830'],.article-card [data-node-id='7399:1709']{width:auto!important;flex:1;min-width:0}
+  .article-card [data-node-id='7399:1712']{max-width:100%}
+  .article-card [data-node-id='7416:951']{width:auto!important;max-width:100%}
+  .article-card [data-node-id='7399:1723']{flex-wrap:wrap;gap:12px}
+  .article-card [data-node-id='7399:1711']{overflow-wrap:anywhere}
+  .article-comments{padding:24px!important}
+  .article-comments [data-node-id='7416:978']{padding-left:14px!important;padding-right:10px!important;gap:8px}
+  .article-comments [data-node-id='7416:980']{width:auto!important;gap:2px!important}
+  .article-comments [data-node-id='7416:985'],.article-comments [data-node-id='7416:988']{display:none!important}
+  .article-comments .comment-input{font-size:15px!important}
+  .article-comments [data-node-id='7417:1196'],.article-comments [data-node-id='7416:1042'],.article-comments [data-node-id='7416:1072'],.article-comments [data-node-id='7416:1073']{width:100%!important}
+  .article-comments [data-node-id='7416:1007'],.article-comments [data-node-id='7416:1008'],.article-comments [data-node-id='7416:1031'],.article-comments [data-node-id='7417:1210'],.article-comments [data-node-id='7417:1211']{width:auto!important;flex:1;min-width:0}
+  .article-comments [data-node-id='7416:1026'],.article-comments [data-node-id='7416:1049']{height:auto!important;overflow:visible!important}
+  .article-comments [data-node-id='7416:1011'],.article-comments [data-node-id='7416:1013'],.article-comments [data-node-id='7416:1034'],.article-comments [data-node-id='7417:1214'],.article-comments [data-node-id='7417:1216']{max-width:100%}
+  .article-comments [data-node-id='7416:1073']{flex-wrap:wrap;gap:8px;padding-bottom:0!important}
+  .article-comments [data-node-id='7416:1074']{font-size:15px!important}
+  .article-comments [data-node-id='7416:1078']{font-size:13px!important}
+}
